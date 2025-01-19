@@ -7,4 +7,5 @@ import {console2} from "forge-std/console2.sol";
 
 contract EzIDRegistry  {
     // constructor() ERC721("EzIDRegistry", "EZID") {}
+    console.log("Hello World");
 }
