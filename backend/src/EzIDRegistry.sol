@@ -6,6 +6,7 @@ pragma solidity ^0.8.0;
 import {console2} from "forge-std/console2.sol";
 
 contract EzIDRegistry  {
-    // constructor() ERC721("EzIDRegistry", "EZID") {}
-    console.log("Hello World");
+    constructor() {
+        console2.log("Hello World");
+    }
 }
